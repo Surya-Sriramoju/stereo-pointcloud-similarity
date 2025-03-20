@@ -43,7 +43,7 @@ Run the following command from the project root. If the save flag is set to True
 python run_point_cloud.py
 ```
 2. **Deep Similarity:**
-Run the following code from project root, the code compares cosine, euclidean and dot product similarities and saves a histogram image of the similarity score and frequency.
+Run the following code from project root, the code compares cosine, euclidean and dot product similarities and it will print the average similarity scores across datasets.
 ```bash
 python run_similarity.py
 ```
