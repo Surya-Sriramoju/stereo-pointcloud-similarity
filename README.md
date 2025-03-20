@@ -30,7 +30,7 @@ pip install -r requirements.txt
 
 ### Running the code
 1. **Point cloud generation:**
-Run the following command from the project root. If the save flag is set to True in the configuration, the generated point cloud files will be saved in the dataset/output directory in .pcd format. Otherwise, a random point cloud from the dataset will be visualized. There are 3 main scripts for point cloud generation in the src folder
+Run the following command from the project root. If the save flag is set to True in the configuration, the generated point cloud files will be saved in the dataset/output directory in .pcd format. Please create a folder called dataset in the root folder. Otherwise, a random point cloud from the dataset will be visualized. There are 3 main scripts for point cloud generation in the src folder
 - generate_point_cloud.py: 
     - Extracts necessary information from the config file (e.g., camera parameters, max depth, filtering options).
     - Generates a 3D point cloud from disparity maps using geometry

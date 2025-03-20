@@ -6,11 +6,11 @@ camera:
   b: 120.264
 
 paths:
-  data_root: "test_dataset"
-  disparity: "test_dataset/disparity"
-  left_stereo: "test_dataset/left_stereo"
-  right_stereo: "test_dataset/right_stereo"
-  output: "test_dataset/output"
+  data_root: "dataset"
+  disparity: "dataset/disparity"
+  left_stereo: "dataset/left_stereo"
+  right_stereo: "dataset/right_stereo"
+  output: "dataset/output"
 
 point_cloud:
   depth_range:
