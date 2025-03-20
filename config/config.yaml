@@ -1,0 +1,36 @@
+camera:
+  fx: 1905.71
+  fy: 1906.52
+  cx: 998.87
+  cy: 563.566
+  b: 120.264
+
+paths:
+  data_root: "test_dataset"
+  disparity: "test_dataset/disparity"
+  left_stereo: "test_dataset/left_stereo"
+  right_stereo: "test_dataset/right_stereo"
+  output: "test_dataset/output"
+
+point_cloud:
+  depth_range:
+    min: 0.0
+    max: 50.0
+  disparity:
+    min_thresh: 2.0
+  filter: True # For filtering the resulting pointclouds
+
+filter_methods:
+  statistical_outlier_removal:
+    nb_neighbors: 20.0
+    std_ratio: 2.0
+  threshold:
+    sky_threshold: True # for masking out the sky to get a clean point cloud
+    roi: 300
+    thresh_min: 200
+    thresh_max: 255
+
+output:
+  save: True #Change this to True to  save the output point clouds
+
+  
